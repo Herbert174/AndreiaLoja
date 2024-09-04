@@ -19,12 +19,13 @@ body{
 /* -------------- Barra de Navegação ---------------- */
 .navbar-custom{background-color: #121313; border-bottom: rgb(75, 3, 3) solid 3px;}
 .navbar-custom .navbar-nav> li > a{color: rgb(99, 99, 99);}
-.navbar-custom .navbar-nav> li > a:hover{color: black; border-bottom: 1px solid black;}
+.navbar-custom .navbar-nav> li > a:hover{color: red; border-bottom: 1px solid black;}
 .navbar-custom .navbar-nav> li > a::selection{background-color: #fdffff;}
 .carrinho_compras{height: 20px; width: 20px; margin-right: 5px;}
 .menu-custom{border-radius: 10px;}
 .menu-custom1{border-radius: 10px; padding-left: 5px;}
 .dropdown-menu{background-color: rgb(19, 18, 18);}
+.dropdown-menu> li > a:hover{background-color: red;}
 .nav-custom{color: rgb(99, 99, 99); margin-left: 10px; margin-top: 15px;}
 .pnavCustom{color: rgb(99, 99, 99);}
 /* ---------------- Imagem de capa ------------------ */
@@ -37,15 +38,20 @@ body{
 /* --------------------- Botões --------------------- */
 .botao{width: 100%;}
 .btn_custom{color: rgb(99, 99, 99); border-color: #121313; border-right: #121313; border-bottom: #121313; background: #121313; height: 50px; width: 150px;}
-.btn_custom:hover{color: black; border-bottom: 1px solid black;}
-.btn-custom1{background-color:orangered; color: white;}
-.btn-custom1:hover{background-color:rgb(218, 58, 0); color: black;}
-.btn-custom2{background-color:orangered; border-color: rgb(80, 80, 80); color: white;}
-.btn-custom2:hover{background-color:rgb(218, 58, 0); color: black;}
+.btn_custom:hover{color: red; border-bottom: 1px solid black;}
+.btn-custom1{background-color:rgb(82, 2, 2); color: white;}
+.btn-custom1:hover{background-color:rgb(255, 0, 0); color: black;}
+.btn-custom2{background-color:rgb(255, 0, 0); border-color: rgb(80, 80, 80); color: white;}
+.btn-custom2:hover{background-color:rgb(255, 0, 0); color: black;}
 .link-custom{color: black;}
 .link-custom:hover{color: blue; text-decoration: none;}
 .input-custom{width: 50px;}
 .input-custom1{width: 200px;}
+.inputComentario{background-color: rgb(70, 1, 1);}
+.inputComentario input{background: black; color: white;}
+.inputComentario button{background: rgb(82, 2, 2); color: white;}
+.areaComentarioCustom{background-color: rgb(70, 1, 1);}
+.areaComentarioCustom:hover{background-color: black;}
 .btn-blue{background: #2D4E7B; color: white; border-radius: 10px;}
 .btn-blue:hover{background: #1c3a64; color: white;}
 /* ---------------- Seção conteudo ------------------ */
@@ -80,7 +86,7 @@ body{
 .img-whatsapp{position:fixed; height: 50px; width: 50px; bottom: 120px; right: 30px; z-index: 1000;}
 
 .estrelas input[type=radio]{display: none; }
-.estrelas label i.fa:before{content: '\f005'; color: rgb(253, 103, 48);}
+.estrelas label i.fa:before{content: '\f005'; color: rgb(255, 0, 0);}
 .estrelas input[type=radio]:checked ~ label i.fa:before{color: #CCC;}
 .tabela_custom{background-color: black; color: white;}
 .tabelaTamanhoCustom{width: 90%;}
@@ -106,10 +112,10 @@ body{
 #img2{width: 100%; height: 430px;}
 #img3{width: 100%; height: 430px;}
 /* ----------------- Seção rodapé ------------------- */
-#rodape{background-color: #747575; border-top: black solid 2px;}
+#rodape{background-color: rgb(19, 18, 18); border-top: rgb(75, 3, 3) solid 3px;}
 .item-rede-social{float: right; position: relative;}
-#rodape a:hover{color:white; background: none}
-.item-rede-social:hover{background:orangered; border-radius: 10px;}
+#rodape a:hover{color:red; background: none}
+.item-rede-social:hover{background:rgb(129, 0, 0); border-radius: 50px;}
 .img-rodape{height: 100px; width: 300px;}
 /* =================== Tipografia =================== */
 .titulo1{text-align: center; margin-bottom: 20px; font-size: 35px;}
@@ -119,6 +125,7 @@ body{
 .centro1{text-align: center;}
 .direita{float: right;}
 .esquerda{float: left;}
+.h4Comentario{color:black;}
 /* ----------------- Media Queries ------------------ */
 /* XS <768 */
 

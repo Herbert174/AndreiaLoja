@@ -27,7 +27,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Loja Online</title>
-        <link rel="icon" href="imagens/twitter.png">
+        <link rel="icon" href="imagens/Capa.jpeg">
 
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -153,7 +153,7 @@
                                 Categorias
                                 <span class="caret"></span>
                             </a>
-                            <ul class="dropdown-menu" style="background-color: white;" aria-labelledby="categorias">
+                            <ul class="dropdown-menu" aria-labelledby="categorias">
                                     <li><a href="Produtos?secao=1">Computadores</a></li>
                                     <li><a href="Produtos?secao=2">Notebooks</a></li>
                                     <li><a href="Produtos?secao=3">Celulares</a></li>
@@ -165,7 +165,7 @@
                         <li><button class="btn_custom" id="meu_carrinho" data-toggle="modal" data-target="#modal-mensagem"><img class="carrinho_compras" src="imagens/Emote1.png">Meu Carrinho</button></li>
                     </ul>
 
-                    <img class="nav navbar-nav navbar-left imgcustom" src="imagens/twitter.png">
+                    <img class="nav navbar-nav navbar-left img-logo" src="imagens/Capa.jpeg">
                     <div class="nav navbar-nav navbar-left nav-custom">
                         Bem vindo: <span class="negrito"><?= $usuario ?></span>
                     </div>

@@ -21,8 +21,8 @@
 		{
 		while($registro = mysqli_fetch_array($resultado_id, MYSQLI_ASSOC))
 			{
-			echo '<a href="#" class="list-group-item">';
-				echo '<h4 class="list-group-item-heading">'.$registro['nome'].' <small> - '.$registro['data_inclusao_formatada'].'  </small>';
+			echo '<a href="#" class="list-group-item areaComentarioCustom">';
+				echo '<h4 class="list-group-item-heading h4Comentario">'.$registro['nome'].' <small> - '.$registro['data_inclusao_formatada'].'  </small>';
 				echo '<p class="list-group-item-text pull-right">';
 				echo '</p> </h4>';
 				echo '<p class="list-group-item-text">'.$registro['comentario'].'</p>';	

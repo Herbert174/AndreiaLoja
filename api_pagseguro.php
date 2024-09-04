@@ -285,7 +285,7 @@
 			 echo 'Erro ao registrar transação no banco de dados';
 			 }
     
-    echo "<br><a class='link-custom' href='#'><button class='btn btn-default btn-block botao btn-blue' onclick='envia_pagseguro();'>Avançar para o Pagseguro</button></a>";
+    echo "<br><a class='link-custom' href='#'><button class='btn btn-default btn-block botao btn-custom1' onclick='envia_pagseguro();'>Avançar para o Pagseguro</button></a>";
     
 
 /*      raw para utilizar nos testes do postman
