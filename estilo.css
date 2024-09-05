@@ -91,7 +91,7 @@ body{
 .tabela_custom{background-color: black; color: white;}
 .tabelaTamanhoCustom{width: 90%;}
 .azul{width: 100%; background-color: #2D4E7B;}
-.div_custom{background-image: url("imagens/Capa.jpeg"); height: 100px; width: 100%; background-size: 100%;
+.div_custom{background-image: url("imagens/CapaLoja.jpeg"); height: 100px; width: 100%; background-size: 100%;
 	opacity: 1.0; margin-bottom: 0px; margin-top: 0px;
 	background-position: top; border-color: rgb(255, 255, 255); border-bottom: 3px solid;
 	background-size: cover;}
@@ -118,7 +118,7 @@ body{
 .item-rede-social:hover{background:rgb(129, 0, 0); border-radius: 50px;}
 .img-rodape{height: 100px; width: 300px;}
 /* =================== Tipografia =================== */
-.titulo1{text-align: center; margin-bottom: 20px; font-size: 35px;}
+.titulo1{text-align: center; margin-bottom: 20px; font-size: 35px; color: white;}
 .negrito{font-weight: bold;}
 .titulo2{text-align: center;}
 .centro{position: center;}
@@ -239,7 +239,7 @@ body{
 /* 100% Tela 1366 x 768 */
 @media screen and (min-width: 1366px)
 	{
-	.div_custom{height: 380px;}
+	.div_custom{height: 570px;}
 	.img-custom{height: 200px;}
 	.img-custom3{height: 250px;}
 	.custom1 span{font-size: 14px;}

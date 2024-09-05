@@ -33,7 +33,7 @@
 		$novoNomeImagem = uniqid();//Gera um id unico para que os nomes das imagens não se repitam
 		$extensao = strtolower(pathinfo($nomeImagem,PATHINFO_EXTENSION));//Retorna somente o nome da extensão da imagem/arquivo, transformando ele em minusculo se for preciso com a função strtolower
 		
-		if($extensao != "jpg" && $extensao != "png")//Verifica se a extensão enviada é jpg ou png
+		if($extensao != "jpg" && $extensao != "png" && $extensao != "jpeg")//Verifica se a extensão enviada é jpg ou png
 			die("Formato de arquivo não aceito");
 
 		$path = $pasta.$novoNomeImagem.".".$extensao;//Define o local onde a imagem será armazenada e o nome que será salvo
