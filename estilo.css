@@ -91,8 +91,8 @@ body{
 .tabela_custom{background-color: black; color: white;}
 .tabelaTamanhoCustom{width: 90%;}
 .azul{width: 100%; background-color: #2D4E7B;}
-.div_custom{background-image: url("imagens/CapaLoja.jpeg"); height: 100px; width: 100%; background-size: 100%;
-	opacity: 1.0; margin-bottom: 0px; margin-top: 0px;
+.div_custom{ height: 100px; width: 100%; background-size: 100%;
+	opacity: 1.0; margin-bottom: 70px; margin-top: 0px; padding: 0px;
 	background-position: top; border-color: rgb(255, 255, 255); border-bottom: 3px solid;
 	background-size: cover;}
 .nav-tabs>li>a{color:rgb(0, 0, 0);}
@@ -111,6 +111,7 @@ body{
 #img1{width: 100%; height: 430px;}
 #img2{width: 100%; height: 430px;}
 #img3{width: 100%; height: 430px;}
+.img_capa{height: 100%; width: 100%;}
 /* ----------------- Seção rodapé ------------------- */
 #rodape{background-color: rgb(19, 18, 18); border-top: rgb(75, 3, 3) solid 3px;}
 .item-rede-social{float: right; position: relative;}
@@ -252,7 +253,7 @@ body{
 	
 	}
 
-	/* 90% Tela 1366 x 768 */
+/* 90% Tela 1366 x 768 */
 @media screen and (min-width: 1525px)
 	{
 	.div_custom{height: 640px;}
@@ -270,4 +271,22 @@ body{
 	.custom1 span{font-size: 15px;}
 	.custom1 b{font-size: 15px;}
 	.nav-tabs a{font-size: 18px;}
+	}
+
+/* 70% Tela 1366 x 768 */
+@media screen and (min-width: 1930px)
+	{
+	.div_custom{height: 900px;}
+	}
+
+/* 60% Tela 1366 x 768 */
+@media screen and (min-width: 2200px)
+	{
+	.div_custom{height: 980px;}
+	}
+
+/* 50% Tela 1366 x 768 */
+@media screen and (min-width: 2600px)
+	{
+	.div_custom{height: 1190px;}
 	}
