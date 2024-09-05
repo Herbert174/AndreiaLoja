@@ -49,19 +49,19 @@
     
     <div class="container">
     	<div class="page-header">
-        	<h1>Editar Produto</h1>
+        	<h1 class="corCustom">Editar Produto</h1>
       	</div>
 
       	<div class="row">
       		<form method="POST" enctype="multipart/form-data" action="editar_action?id_produto=<?=$id?>">
         	<div class="col-sm-8">
         		<div class="form-group">
-        			<label>
+        			<label class="corCustom">
 						Nome do produto:<br> <input type="text" name="nome_produto" value="<?= $dados_id['nome_produto']; ?>" class="form-control" maxlength="20">
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label for="">
+					<label for="" class="corCustom">
 						Selecione a imagem
 					</label><br>
 					<a target="_blank" href="<?=$dados_id['imagem'];?>">
@@ -70,25 +70,25 @@
 					<input type="file" class="form-control formulario_custom1" name="imagem">
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Resumo:<br>
 						<textarea id="resumo" name="resumo" rows="3" cols="40"><?= $dados_id['resumo']; ?></textarea>
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Informações técnicas:<br>
 						<textarea id="info_tec" name="info_tec" rows="3" cols="40"><?= $dados_id['info_tec']; ?></textarea>
 					</label>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Garantia:<br>
 						<textarea id="garantia" name="garantia" rows="3" cols="40"><?= $dados_id['garantia']; ?></textarea>
 					</label>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Embalagem:<br>
 						<textarea id="embalagem" name="embalagem" rows="3" cols="40"><?= $dados_id['embalagem']; ?></textarea>
 					</label>
@@ -100,32 +100,32 @@
 
 			<div class="col-sm-4">
         		<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Quantidade em estoque(un):<br> <input type="text" name="qntd_estoque" value="<?= $dados_id['qntd_estoque']; ?>" class="form-control">
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Preço(R$):<br> <input type="text" name="preco" value="<?= $dados_id['preco']; ?>" class="form-control">
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Cumprimento(cm):<br> <input type="text" name="cumprimento" value="<?= $dados_id['cumprimento']; ?>" class="form-control">
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Altura(cm):<br> <input type="text" name="altura" value="<?= $dados_id['altura']; ?>" class="form-control">
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Largura(cm):<br> <input type="text" name="largura" value="<?= $dados_id['largura']; ?>" class="form-control">
 					</label><br>
 				</div>
 				<div class="form-group">
-					<label>
+					<label class="corCustom">
 						Peso(g):<br> <input type="text" name="peso" value="<?= $dados_id['peso']; ?>" class="form-control">
 					</label><br>
 				</div>

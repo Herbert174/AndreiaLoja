@@ -21,10 +21,10 @@
     
     <div class="container"><!-- Local onde será exibido o formulário de cadastro dos produtos -->
     	<div class="page-header">
-        	<h1>Cadastrar Produto</h1>
+        	<h1 class="corCustom">Cadastrar Produto</h1>
       	</div>
 
-      	<div class="row"><!-- Row onde ficará o form que será enviado para o banco de dados -->
+      	<div class="row corCustom"><!-- Row onde ficará o form que será enviado para o banco de dados -->
       		<form enctype="multipart/form-data" method="POST" action="cadastrando">
         	<div class="col-sm-8">
         		<div class="form-group">

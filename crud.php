@@ -35,7 +35,7 @@
 	<body>
 		<div class="container"><!-- Estrutura onde será exibido a lista do CRUD de produtos -->
 	    	<div class="page-header">
-	        	<h1>Listagem de produtos</h1>
+	        	<h1 class="corCustom">Listagem de produtos</h1>
 	      	</div>
 
 		    <div class="row">
@@ -58,10 +58,10 @@
 							cada produto da lista de produtos armazenado no banco de dados -->
 							
 								<tr>
-									<td scope="row"><?=$produtos['id_produto'];?></td>
+									<td scope="row" class="corCustom"><?=$produtos['id_produto'];?></td>
 									<td><img height="50" width="50" src="<?=$produtos['imagem']?>"></td>
-									<td><?=$produtos['nome_produto'];?></td>
-									<td><?=$preco;?></td>
+									<td class="corCustom"><?=$produtos['nome_produto'];?></td>
+									<td class="corCustom"><?=$preco;?></td>
 									<td>
 										<a href="editar?id_produto=<?=$produtos['id_produto'];?>">[ Editar ]</a>
 										<a href="excluir?id_produto">[ Excluir ]</a>

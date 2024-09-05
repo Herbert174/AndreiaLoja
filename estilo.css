@@ -43,7 +43,7 @@ body{
 .btn-custom1:hover{background-color:rgb(255, 0, 0); color: black;}
 .btn-custom2{background-color:rgb(255, 0, 0); border-color: rgb(80, 80, 80); color: white;}
 .btn-custom2:hover{background-color:rgb(255, 0, 0); color: black;}
-.link-custom{color: black;}
+.link-custom{color: white;}
 .link-custom:hover{color: blue; text-decoration: none;}
 .input-custom{width: 50px;}
 .input-custom1{width: 200px;}
@@ -115,6 +115,7 @@ body{
 /* ----------------- Seção rodapé ------------------- */
 #rodape{background-color: rgb(19, 18, 18); border-top: rgb(75, 3, 3) solid 3px;}
 .item-rede-social{float: right; position: relative;}
+#rodape a{color: white;}
 #rodape a:hover{color:red; background: none}
 .item-rede-social:hover{background:rgb(129, 0, 0); border-radius: 50px;}
 .img-rodape{height: 100px; width: 300px;}
@@ -129,6 +130,7 @@ body{
 .direita{float: right;}
 .esquerda{float: left;}
 .h4Comentario{color:black;}
+.corCustom{color:black;}
 /* ----------------- Media Queries ------------------ */
 /* XS <768 */
 

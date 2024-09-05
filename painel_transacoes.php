@@ -78,7 +78,7 @@
         </script>
 	</head>
 
-	<body>
+	<body class="corCustom">
 
         <div class="modal fade" id="modal-endereco">
         <div class="modal-dialog">
