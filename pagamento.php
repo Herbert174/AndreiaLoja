@@ -25,7 +25,7 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Loja Online</title>
-        <link rel="icon" href="imagens/twitter.png">
+        <link rel="icon" href="imagens/Capa.jpeg">
 
         <!-- Bootstrap -->
         <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
@@ -207,7 +207,7 @@
                         <li><button class="btn_custom" id="meu_carrinho" data-toggle="modal" data-target="#modal-mensagem"><img class="carrinho_compras" src="imagens/Emote1.png">Meu Carrinho</button></li>
                     </ul>
 
-                    <img class="nav navbar-nav navbar-left imgcustom" src="imagens/twitter.png">
+                    <img class="nav navbar-nav navbar-left img-logo" src="imagens/Capa.jpeg">
                     <div class="nav navbar-nav navbar-left nav-custom">
                         Bem vindo: <span class="negrito"><?= $usuario ?></span>
                     </div>
@@ -220,7 +220,7 @@
         </nav>
 
         <div class="modal fade" id="modal-endereco">
-        <div class="modal-dialog">
+        <div class="modal-dialog modal_custom">
             <div class="modal-content">
                 <div class="modal-header">
                     <button type="button" class="close" data-dismiss="modal"><span>×</span></button>

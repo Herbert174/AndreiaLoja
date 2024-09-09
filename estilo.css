@@ -122,6 +122,7 @@ body{
 /* =================== Tipografia =================== */
 .modal-lg{color:#000000;}
 .modal-sm{color: #000000;}
+.modal_custom{color:#000000;}
 .titulo1{text-align: center; margin-bottom: 20px; font-size: 35px; color: white;}
 .negrito{font-weight: bold;}
 .titulo2{text-align: center;}
