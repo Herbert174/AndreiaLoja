@@ -213,6 +213,7 @@
         </div>
 
         <div class="col-sm-12 div_custom">
+            <img class="img_capa" src="imagens/CapaLoja.jpeg">
         </div>
 
         <section id="conteudo1"><br>
